@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+.header-right  {
+    display: flex;
+}
+
+
+.header-right a {
+    
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    
+}
+
+.home{
+
+    height: 200px;
+    width: 100;
+    background-color: rgb(129, 129, 161);
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.home1{
+    height: 200px;
+    width: 100;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+
+}
+.new{
+    margin-bottom: 10px ;
+
+
+}
+.new1{
+   margin-bottom: 30px; 
+}
+
+
+
+.card{
+    box-shadow: 0 4px 8px 0;
+    height: 80%;
+    width: 30%;
+    padding: 2px 16px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+    
+    
+}
+.coloumn{
+    float: left;
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 30%;
+}
+.middle{
+    width: 30%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+
+}
+
+ img{
+    height: 80%;
+    width: 100%;
+    padding: 2px 16px;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+.card1{
+    box-shadow: 0 4px 8px 0;
+    height: 80%;
+    width: 35%;
+    padding: 2px 16px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+ img{
+    height: 80%;
+    width: 100%;
+    padding: 2px 16px;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+.card2{
+    box-shadow: 0 4px 8px 0;
+    height: 80%;
+    width: 25%;
+    padding: 2px 16px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+ img{
+    height: 80%;
+    width: 100%;
+    padding: 2px 16px;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+.footer{
+
+    height: 80%;
+    margin-top: 100px;
+   
+}
+.footer1{
+    text-align: right;
+    margin-top: 50[x];
+
+}
+
+
+
+
